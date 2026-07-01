@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="NovaFlow Technologies — scalable software, AI-powered automation, and cloud infrastructure for forward-thinking businesses." />
+  <meta name="keywords" content="NovaFlow, software development, AI, machine learning, cloud, web development, cybersecurity" />
+  <meta name="author" content="NovaFlow Technologies" />
+  <meta property="og:title" content="NovaFlow — Innovating the Future of Digital Solutions" />
+  <meta property="og:description" content="Scalable software and AI-powered digital solutions for modern businesses." />
+  <meta property="og:type" content="website" />
+  <title>NovaFlow — Digital Solutions That Scale</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="site-header" id="site-header" role="banner">
+    <div class="inner">
+      <a href="#home" class="brand" aria-label="NovaFlow home">
+        <svg class="brand-mark" width="30" height="30" viewBox="0 0 30 30" fill="none" aria-hidden="true">
+          <rect x="2" y="2" width="12" height="12" rx="2" fill="#0F4C75"/>
+          <rect x="16" y="2" width="12" height="12" rx="2" fill="#1B8CA6"/>
+          <rect x="2" y="16" width="12" height="12" rx="2" fill="#1B8CA6"/>
+          <rect x="16" y="16" width="12" height="12" rx="2" fill="#0F4C75" opacity="0.5"/>
+        </svg>
+        <span>Nova<strong>Flow</strong></span>
+      </a>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+        <a href="#about" class="nav-item">About</a>
+        <a href="#services" class="nav-item">Services</a>
+        <a href="#features" class="nav-item">Platform</a>
+        <a href="#pricing" class="nav-item">Pricing</a>
+        <a href="#testimonials" class="nav-item">Clients</a>
+        <a href="#contact" class="nav-item">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#contact" class="btn-primary" id="nav-cta">Get in Touch</a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-backdrop" id="nav-backdrop" aria-hidden="true"></div>
+
+  <!-- HERO -->
+  <section class="hero" id="home" aria-labelledby="hero-headline">
+    <div class="inner hero-layout">
+      <div class="hero-copy">
+        <p class="eyebrow">Enterprise Software & AI Solutions</p>
+        <h1 id="hero-headline">Innovating the Future<br>of Digital Solutions</h1>
+        <p class="hero-lead">NovaFlow builds scalable software platforms, AI-powered automation, and cloud-native infrastructure that help businesses move faster and operate smarter.</p>
+        <div class="hero-actions">
+          <a href="#pricing" class="btn-primary" id="hero-start">Start a Project</a>
+          <a href="#about" class="btn-ghost" id="hero-learn">Learn More</a>
+        </div>
+        <div class="trust-bar">
+          <span class="trust-stat"><strong data-count="150">0</strong>+ Projects</span>
+          <span class="divider" aria-hidden="true"></span>
+          <span class="trust-stat"><strong data-count="50">0</strong>+ Clients</span>
+          <span class="divider" aria-hidden="true"></span>
+          <span class="trust-stat"><strong>99.9%</strong> Uptime</span>
+        </div>
+      </div>
+
+      <figure class="hero-diagram" aria-hidden="true">
+        <div class="diagram-card dc-top">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 2l2.4 4.9 5.4.8-3.9 3.8.9 5.3L10 14.3l-4.8 2.5.9-5.3L2.2 7.7l5.4-.8L10 2z" fill="#1B8CA6"/></svg>
+          <div>
+            <strong>Cloud Infrastructure</strong>
+            <span>Auto-scaling, 3 regions</span>
+          </div>
+        </div>
+        <div class="diagram-hub">
+          <svg width="48" height="48" viewBox="0 0 30 30" fill="none">
+            <rect x="2" y="2" width="12" height="12" rx="2" fill="#0F4C75"/>
+            <rect x="16" y="2" width="12" height="12" rx="2" fill="#1B8CA6"/>
+            <rect x="2" y="16" width="12" height="12" rx="2" fill="#1B8CA6"/>
+            <rect x="16" y="16" width="12" height="12" rx="2" fill="#0F4C75" opacity="0.45"/>
+          </svg>
+          <span>NovaFlow</span>
+        </div>
+        <div class="diagram-card dc-left">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="8" stroke="#0F4C75" stroke-width="1.5"/><path d="M7 10l2 2 4-4" stroke="#0F4C75" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <div>
+            <strong>Security Certified</strong>
+            <span>SOC 2 · GDPR</span>
+          </div>
+        </div>
+        <div class="diagram-card dc-right">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 10h14M12 5l5 5-5 5" stroke="#1B8CA6" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <div>
+            <strong>API-First</strong>
+            <span>REST & GraphQL</span>
+          </div>
+        </div>
+        <div class="diagram-card dc-bottom">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M2 14l4-4 3 3 5-6 4 5" stroke="#1B8CA6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <div>
+            <strong>AI Analytics</strong>
+            <span>Real-time insights</span>
+          </div>
+        </div>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about-section" id="about" aria-labelledby="about-h">
+    <div class="inner about-layout">
+      <div class="about-media">
+        <div class="media-block">
+          <div class="media-accent"></div>
+          <div class="values-list">
+            <div class="value-item">
+              <div class="value-index">01</div>
+              <div>
+                <h3>Engineering-First</h3>
+                <p>Every product is architected for reliability, performance, and long-term maintainability.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-index">02</div>
+              <div>
+                <h3>Transparent Partnership</h3>
+                <p>We work as an extension of your team — open communication, real-time visibility, no surprises.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-index">03</div>
+              <div>
+                <h3>Outcome-Driven</h3>
+                <p>We measure success by business results — reduced overhead, increased revenue, faster delivery.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-text">
+        <p class="eyebrow">About NovaFlow</p>
+        <h2 id="about-h">Technology That Works as Hard as You Do</h2>
+        <p>Founded by engineers who grew frustrated with software that promised innovation but delivered complexity, NovaFlow exists to make powerful technology accessible and dependable. We've delivered digital products across fintech, healthtech, and enterprise SaaS — always starting from business goals, never from technology for its own sake.</p>
+        <div class="mission-vision">
+          <div>
+            <h4>Mission</h4>
+            <p>To empower organizations with software that solves real problems at scale, without the overhead of bloated enterprise vendors.</p>
+          </div>
+          <div>
+            <h4>Vision</h4>
+            <p>A world where every business has access to the same quality of technology previously reserved for the Fortune 500.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section services-section" id="services" aria-labelledby="services-h">
+    <div class="inner">
+      <div class="section-intro centered">
+        <p class="eyebrow">What We Build</p>
+        <h2 id="services-h">End-to-End Technology Services</h2>
+        <p class="section-lead">Six core practice areas, one integrated team. Whether you need a single service or a complete digital transformation, we deliver with the same standard of craft.</p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-row" id="svc-web">
+          <div class="service-meta">
+            <div class="service-num">01</div>
+            <div class="service-icon">
+              <svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true"><rect x="2" y="3" width="22" height="16" rx="2" stroke="#0F4C75" stroke-width="1.5"/><path d="M2 8h22M8 23h10M13 19v4" stroke="#0F4C75" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+          </div>
+          <div class="service-body">
+            <h3>Web Development</h3>
+            <p>Full-stack applications built to handle real traffic, real users, and real business complexity. We work with React, Next.js, Node.js, and PostgreSQL, choosing the right tools rather than defaulting to trends.</p>
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>React / Next.js</li><li>Node.js</li><li>PostgreSQL</li><li>TypeScript</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="service-row" id="svc-ai">
+          <div class="service-meta">
+            <div class="service-num">02</div>
+            <div class="service-icon">
+              <svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true"><circle cx="13" cy="13" r="4" stroke="#1B8CA6" stroke-width="1.5"/><path d="M13 4v3M13 19v3M4 13h3M19 13h3M6.6 6.6l2.1 2.1M17.3 17.3l2.1 2.1M19.4 6.6l-2.1 2.1M8.7 17.3l-2.1 2.1" stroke="#1B8CA6" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+          </div>
+          <div class="service-body">
+            <h3>AI & Machine Learning</h3>
+            <p>From predictive analytics to natural language processing and computer vision — we design, train, and deploy AI systems that integrate into your existing workflows without disrupting operations.</p>
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>PyTorch / TensorFlow</li><li>LLM Fine-tuning</li><li>MLOps</li><li>Vector Databases</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="service-row" id="svc-cloud">
+          <div class="service-meta">
+            <div class="service-num">03</div>
+            <div class="service-icon">
+              <svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true"><path d="M20 18a6 6 0 0 0 0-12 6 6 0 0 0-10.7-1A5 5 0 1 0 6 18" stroke="#0F4C75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+          <div class="service-body">
+            <h3>Cloud Solutions</h3>
+            <p>Architecture, migration, and managed operations across AWS, GCP, and Azure. We build infrastructure that's observable, cost-optimized, and designed to handle growth without re-architecture.</p>
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>AWS / GCP / Azure</li><li>Kubernetes</li><li>Terraform</li><li>CI/CD Pipelines</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="service-row" id="svc-mobile">
+          <div class="service-meta">
+            <div class="service-num">04</div>
+            <div class="service-icon">
+              <svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true"><rect x="8" y="2" width="10" height="22" rx="2" stroke="#1B8CA6" stroke-width="1.5"/><circle cx="13" cy="20" r="1" fill="#1B8CA6"/></svg>
+            </div>
+          </div>
+          <div class="service-body">
+            <h3>Mobile App Development</h3>
+            <p>Cross-platform and native applications for iOS and Android. We prioritize offline capability, accessibility, and performance on low-bandwidth networks — because your users aren't always on a fast connection.</p>
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>React Native</li><li>Flutter</li><li>Swift / Kotlin</li><li>Expo</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="service-row" id="svc-design">
+          <div class="service-meta">
+            <div class="service-num">05</div>
+            <div class="service-icon">
+              <svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true"><rect x="2" y="5" width="22" height="16" rx="2" stroke="#0F4C75" stroke-width="1.5"/><circle cx="8" cy="13" r="2.5" stroke="#0F4C75" stroke-width="1.5"/><path d="M14 10h6M14 13h6M14 16h4" stroke="#0F4C75" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+          </div>
+          <div class="service-body">
+            <h3>UI/UX Design</h3>
+            <p>Design grounded in user research, not aesthetics-first guesswork. We run discovery workshops, produce clickable prototypes, and iterate based on real user feedback before a single line of code is written.</p>
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>Figma</li><li>User Research</li><li>Design Systems</li><li>Accessibility (WCAG 2.2)</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="service-row" id="svc-security">
+          <div class="service-meta">
+            <div class="service-num">06</div>
+            <div class="service-icon">
+              <svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true"><path d="M13 2L4 7v6c0 7 5.3 13.5 9 15 3.7-1.5 9-8 9-15V7L13 2z" stroke="#1B8CA6" stroke-width="1.5" stroke-linejoin="round"/><path d="M9 13l3 3 5-5" stroke="#1B8CA6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+          <div class="service-body">
+            <h3>Cybersecurity</h3>
+            <p>Penetration testing, security audits, threat modeling, and compliance advisory (SOC 2, ISO 27001, GDPR). We harden your infrastructure before attackers find the weak points — not after.</p>
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>Pen Testing</li><li>SOC 2 / ISO 27001</li><li>SIEM Integration</li><li>Zero-Trust Architecture</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLATFORM / FEATURES -->
+  <section class="section platform-section" id="features" aria-labelledby="platform-h">
+    <div class="inner">
+      <div class="platform-header">
+        <div>
+          <p class="eyebrow">The NovaFlow Platform</p>
+          <h2 id="platform-h">Built for Teams That Can't Afford Downtime</h2>
+        </div>
+        <p class="platform-lead">Every engagement runs on the same core platform — battle-tested infrastructure, shared tooling, and quality standards that we apply consistently regardless of project size.</p>
+      </div>
+
+      <div class="platform-grid">
+        <div class="platform-feature pf-wide" id="pf-performance">
+          <div class="pf-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M14 4v10l7 4" stroke="#0F4C75" stroke-width="2" stroke-linecap="round"/><circle cx="14" cy="14" r="11" stroke="#0F4C75" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Sub-Second Response Times</h3>
+          <p>Our frontend delivery stack uses edge caching, image optimization, and code splitting to keep p95 load times under 800ms — even on 3G connections.</p>
+          <div class="pf-metric"><strong>{"<"}800ms</strong> p95 load time</div>
+        </div>
+
+        <div class="platform-feature" id="pf-security">
+          <div class="pf-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M14 2L3 8v7c0 8.3 6.2 16 11 17C19.8 31 25 23.3 25 15V8L14 2z" stroke="#1B8CA6" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Security by Default</h3>
+          <p>AES-256 encryption at rest, TLS 1.3 in transit, and automated vulnerability scanning on every deploy.</p>
+        </div>
+
+        <div class="platform-feature" id="pf-scale">
+          <div class="pf-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M14 2L3 8v12l11 6 11-6V8L14 2z" stroke="#0F4C75" stroke-width="1.5" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Horizontal Scalability</h3>
+          <p>Stateless microservices with event-driven messaging. Scale individual components without touching the whole system.</p>
+        </div>
+
+        <div class="platform-feature" id="pf-support">
+          <div class="pf-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M22 17a2 2 0 0 1-2 2H8l-5 5V6a2 2 0 0 1 2-2h15a2 2 0 0 1 2 2v11z" stroke="#1B8CA6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>24/7 Incident Response</h3>
+          <p>Dedicated on-call rotations with under 15-minute response SLA for P0 incidents. No shared queues, no bots.</p>
+        </div>
+
+        <div class="platform-feature" id="pf-observability">
+          <div class="pf-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><polyline points="3 18 9 10 15 14 21 6" stroke="#0F4C75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 6h4v4" stroke="#0F4C75" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Full-Stack Observability</h3>
+          <p>Distributed tracing, structured logging, and custom dashboards. You always know what your system is doing.</p>
+        </div>
+
+        <div class="platform-feature pf-full" id="pf-delivery">
+          <div class="pf-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><polyline points="16 5 22 5 22 11" stroke="#1B8CA6" stroke-width="1.5" stroke-linecap="round"/><path d="M22 5L11 16M6 10l-3 3 7 7 3-3M10 23l-3-3" stroke="#1B8CA6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Continuous Delivery</h3>
+          <p>Automated test suites, staged rollouts, and one-click rollbacks. We ship multiple times per day safely because deployment is boring — exactly as it should be.</p>
+          <div class="pf-metric"><strong>15 min</strong> from merge to production</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="section why-section" id="why" aria-labelledby="why-h">
+    <div class="inner why-layout">
+      <div class="why-text">
+        <p class="eyebrow">Why NovaFlow</p>
+        <h2 id="why-h">We're Accountable to Outcomes, Not Hours</h2>
+        <p>Most agencies bill by the hour and disappear after launch. We structure our engagements around measurable results and stay involved as long as the product is live.</p>
+        <dl class="why-stats">
+          <div>
+            <dt class="stat-number" data-count="150">0</dt>
+            <dd>Projects delivered across 20+ countries</dd>
+          </div>
+          <div>
+            <dt class="stat-number" data-count="50">0</dt>
+            <dd>Active client relationships</dd>
+          </div>
+          <div>
+            <dt>3×</dt>
+            <dd>Average ROI improvement reported by clients in year one</dd>
+          </div>
+          <div>
+            <dt>10+</dt>
+            <dd>Years average engineering experience on every project team</dd>
+          </div>
+        </dl>
+      </div>
+      <div class="why-reasons">
+        <div class="reason" id="reason-1">
+          <div class="reason-num" aria-hidden="true">A</div>
+          <div>
+            <h3>Domain Expertise</h3>
+            <p>We don't generalize across every industry. Our focus on fintech, healthtech, and B2B SaaS means we understand your regulatory constraints, your users, and your competitive landscape before the kickoff call.</p>
+          </div>
+        </div>
+        <div class="reason" id="reason-2">
+          <div class="reason-num" aria-hidden="true">B</div>
+          <div>
+            <h3>Embedded Agile Process</h3>
+            <p>Weekly demos, fortnightly retrospectives, and a shared project board give you complete visibility. You're never waiting for a monthly status report to find out what's happening.</p>
+          </div>
+        </div>
+        <div class="reason" id="reason-3">
+          <div class="reason-num" aria-hidden="true">C</div>
+          <div>
+            <h3>No Vendor Lock-In</h3>
+            <p>All code is written to open standards, documented comprehensively, and handed over to your team at the end of every engagement. You own everything.</p>
+          </div>
+        </div>
+        <div class="reason" id="reason-4">
+          <div class="reason-num" aria-hidden="true">D</div>
+          <div>
+            <h3>Post-Launch Ownership</h3>
+            <p>We offer managed services, retainer support, and planned sprints to keep your product evolving after launch. The relationship doesn't end at go-live.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section testimonials-section" id="testimonials" aria-labelledby="testimonials-h">
+    <div class="inner">
+      <div class="section-intro">
+        <p class="eyebrow">Client Feedback</p>
+        <h2 id="testimonials-h">What Our Clients Say</h2>
+      </div>
+      <div class="testimonials-layout">
+        <blockquote class="testimonial featured-testimonial" id="t-1">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p>"NovaFlow rebuilt our entire data pipeline with an AI solution that cut processing time by 80%. More importantly, they came back six months later, unprompted, to flag a performance regression they'd spotted in our logs. That's the kind of partner we were looking for."</p>
+          <footer>
+            <div class="avatar av-1" aria-hidden="true">SJ</div>
+            <div>
+              <cite>Sarah Johnson</cite>
+              <span>CTO, DataPulse Inc.</span>
+            </div>
+          </footer>
+        </blockquote>
+
+        <div class="testimonials-secondary">
+          <blockquote class="testimonial" id="t-2">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>"Concept to production in eight weeks. The mobile app exceeded every benchmark we set, and the code was clean enough that our internal team could take it over on day one."</p>
+            <footer>
+              <div class="avatar av-2" aria-hidden="true">MC</div>
+              <div>
+                <cite>Marcus Chen</cite>
+                <span>Founder, Vela Ventures</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial" id="t-3">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>"Their security audit found vulnerabilities we'd missed for two years. The remediation roadmap was clear, prioritized by actual risk, and they walked our board through it without the usual consultant jargon."</p>
+            <footer>
+              <div class="avatar av-3" aria-hidden="true">AP</div>
+              <div>
+                <cite>Alicia Patel</cite>
+                <span>CISO, FinEdge Solutions</span>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="section pricing-section" id="pricing" aria-labelledby="pricing-h">
+    <div class="inner">
+      <div class="section-intro centered">
+        <p class="eyebrow">Transparent Pricing</p>
+        <h2 id="pricing-h">Straightforward Plans, No Hidden Fees</h2>
+        <p class="section-lead">All plans include onboarding, documentation, and access to our engineering team. Upgrade or cancel anytime.</p>
+      </div>
+
+      <div class="billing-toggle" role="group" aria-label="Billing period">
+        <button class="toggle-opt active" id="toggle-monthly" aria-pressed="true">Monthly</button>
+        <button class="toggle-opt" id="toggle-annual" aria-pressed="false">Annual <span class="discount-tag">–20%</span></button>
+      </div>
+
+      <div class="pricing-table" role="table" aria-label="Pricing comparison">
+        <div class="pricing-col" role="rowgroup" id="plan-starter">
+          <div class="plan-name" role="columnheader">Starter</div>
+          <div class="plan-price">
+            <strong class="amount" data-monthly="4,999" data-annual="3,999">₹4,999</strong>
+            <span>/ month</span>
+          </div>
+          <p class="plan-desc">Individuals and small teams getting started with a focused project.</p>
+          <ul class="plan-features" aria-label="Starter plan included features">
+            <li data-included="true">Up to 5 active projects</li>
+            <li data-included="true">10 GB cloud storage</li>
+            <li data-included="true">Core AI tooling</li>
+            <li data-included="true">Email support (48h SLA)</li>
+            <li data-included="false">Custom integrations</li>
+            <li data-included="false">Dedicated account manager</li>
+            <li data-included="false">99.9% uptime SLA</li>
+          </ul>
+          <a href="#contact" class="plan-cta outline-cta" id="cta-starter">Get Started</a>
+        </div>
+
+        <div class="pricing-col featured-plan" role="rowgroup" id="plan-professional">
+          <div class="plan-badge">Most Popular</div>
+          <div class="plan-name" role="columnheader">Professional</div>
+          <div class="plan-price">
+            <strong class="amount" data-monthly="12,499" data-annual="9,999">₹12,499</strong>
+            <span>/ month</span>
+          </div>
+          <p class="plan-desc">Growing teams that need more capacity and faster turnaround.</p>
+          <ul class="plan-features" aria-label="Professional plan included features">
+            <li data-included="true">Up to 25 active projects</li>
+            <li data-included="true">100 GB cloud storage</li>
+            <li data-included="true">Advanced AI suite</li>
+            <li data-included="true">Priority support (8h SLA)</li>
+            <li data-included="true">Custom integrations</li>
+            <li data-included="false">Dedicated account manager</li>
+            <li data-included="false">99.9% uptime SLA</li>
+          </ul>
+          <a href="#contact" class="plan-cta primary-cta" id="cta-professional">Start Free Trial</a>
+        </div>
+
+        <div class="pricing-col" role="rowgroup" id="plan-enterprise">
+          <div class="plan-name" role="columnheader">Enterprise</div>
+          <div class="plan-price">
+            <strong class="amount" data-monthly="34,999" data-annual="27,999">₹34,999</strong>
+            <span>/ month</span>
+          </div>
+          <p class="plan-desc">Large organizations with complex, multi-team requirements.</p>
+          <ul class="plan-features" aria-label="Enterprise plan included features">
+            <li data-included="true">Unlimited projects</li>
+            <li data-included="true">1 TB cloud storage</li>
+            <li data-included="true">Full AI suite + custom models</li>
+            <li data-included="true">24/7 phone support (1h SLA)</li>
+            <li data-included="true">Custom integrations</li>
+            <li data-included="true">Dedicated account manager</li>
+            <li data-included="true">99.9% uptime SLA</li>
+          </ul>
+          <a href="#contact" class="plan-cta outline-cta" id="cta-enterprise">Contact Sales</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section faq-section" id="faq" aria-labelledby="faq-h">
+    <div class="inner faq-layout">
+      <div class="faq-intro">
+        <p class="eyebrow">FAQ</p>
+        <h2 id="faq-h">Common Questions</h2>
+        <p>Can't find an answer here? <a href="#contact">Send us a message</a> and we'll respond within one business day.</p>
+      </div>
+      <div class="faq-list" role="list">
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" id="faq-q1" aria-expanded="false" aria-controls="faq-a1">How long does a typical project take?<span class="faq-toggle" aria-hidden="true">+</span></button>
+          <div class="faq-a" id="faq-a1" hidden>A focused web application typically runs 4–8 weeks. Larger platforms with AI components or complex integrations range from 3–6 months. We provide a detailed timeline after a paid discovery sprint, so estimates are grounded in your actual requirements rather than guesswork.</div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" id="faq-q2" aria-expanded="false" aria-controls="faq-a2">Do you offer support after the project launches?<span class="faq-toggle" aria-hidden="true">+</span></button>
+          <div class="faq-a" id="faq-a2" hidden>Yes. We offer three post-launch options: a time-and-materials retainer for ad-hoc requests, a managed services contract covering infrastructure and incidents, and planned sprint cycles for ongoing feature development. Most clients use a combination of all three.</div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" id="faq-q3" aria-expanded="false" aria-controls="faq-a3">Can you integrate with our existing systems?<span class="faq-toggle" aria-hidden="true">+</span></button>
+          <div class="faq-a" id="faq-a3" hidden>Integration is a core competency. We've connected with Salesforce, HubSpot, SAP, Workday, Stripe, Plaid, and hundreds of bespoke internal APIs. The discovery phase includes a technical audit of your current stack to identify integration complexity and surface any risk early.</div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" id="faq-q4" aria-expanded="false" aria-controls="faq-a4">How is our data handled and secured?<span class="faq-toggle" aria-hidden="true">+</span></button>
+          <div class="faq-a" id="faq-a4" hidden>All data is encrypted at rest (AES-256) and in transit (TLS 1.3). We are SOC 2 Type II certified and GDPR compliant. Enterprise clients can opt for single-tenant deployments with data residency in their preferred region. We conduct quarterly access reviews and annual penetration tests.</div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" id="faq-q5" aria-expanded="false" aria-controls="faq-a5">What does your development process look like day-to-day?<span class="faq-toggle" aria-hidden="true">+</span></button>
+          <div class="faq-a" id="faq-a5" hidden>We run two-week sprints with a demo at the end of each cycle. You have access to a shared project board (Linear or Jira, your preference), a dedicated Slack channel, and weekly 30-minute syncs. Code is reviewed before merging, and every feature ships with automated tests and documentation.</div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" id="faq-q6" aria-expanded="false" aria-controls="faq-a6">Can we change or cancel our plan?<span class="faq-toggle" aria-hidden="true">+</span></button>
+          <div class="faq-a" id="faq-a6" hidden>Monthly plans can be upgraded, downgraded, or cancelled at any time with no penalty. Annual plans are invoiced upfront at the discounted rate; if you cancel early, unused months are credited to your account rather than refunded. There are no lock-in contracts on monthly billing.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-section" id="contact" aria-labelledby="contact-h">
+    <div class="inner contact-layout">
+      <div class="contact-info">
+        <p class="eyebrow">Get in Touch</p>
+        <h2 id="contact-h">Let's Talk About Your Project</h2>
+        <p>Send us a brief description of what you're building and we'll get back to you within one business day with an honest assessment — no sales pitch, no commitment required.</p>
+
+        <address class="contact-details">
+          <div class="contact-item">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M16 12.5c0 .3-.1.6-.2.9-.1.3-.3.6-.6.8-.5.5-1 .7-1.7.7-.4 0-.9-.1-1.4-.4-1.2-.5-2.4-1.3-3.4-2.3-1-1-1.8-2.1-2.3-3.3-.3-.5-.4-1-.4-1.4 0-.6.2-1.2.7-1.7.5-.5 1-.7 1.6-.7.2 0 .4 0 .6.1.2.1.4.2.5.4l1.7 2.4c.2.2.3.5.3.7 0 .3-.1.5-.2.7L9.8 10c-.1.1-.1.2-.1.3 0 .1 0 .2.1.3.2.4.6.8 1 1.2.4.4.8.8 1.2 1 .1.1.2.1.3.1.1 0 .2-.1.3-.2l.5-.7c.2-.3.4-.4.7-.4.2 0 .4.1.7.2l2.4 1.7c.2.1.4.3.5.5v.5z" stroke="#0F4C75" stroke-width="1.2" stroke-miterlimit="10"/></svg>
+            <a href="tel:+15551234567">+1 (555) 123-4567</a>
+          </div>
+          <div class="contact-item">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><rect x="2" y="4" width="14" height="10" rx="1.5" stroke="#0F4C75" stroke-width="1.2"/><path d="M2 6l7 5 7-5" stroke="#0F4C75" stroke-width="1.2" stroke-linecap="round"/></svg>
+            <a href="mailto:tulasiramv09@gmail.com">tulasiramv09@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M9 2a5 5 0 0 0-5 5c0 4 5 9 5 9s5-5 5-9a5 5 0 0 0-5-5z" stroke="#0F4C75" stroke-width="1.2"/><circle cx="9" cy="7" r="2" stroke="#0F4C75" stroke-width="1.2"/></svg>
+            <span>HITEC City, Madhapur<br>Hyderabad, Telangana 500081</span>
+          </div>
+        </address>
+
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/tulasi-ram-vutukuri" class="social-link" aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><rect x="1.5" y="1.5" width="15" height="15" rx="2" stroke="currentColor" stroke-width="1.3"/><path d="M5 7.5V13M5 5.5V5.6M8.5 13V10.25a1.75 1.75 0 0 1 3.5 0V13M8.5 7.5V13" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/tulasiram-vutukuri" class="social-link" aria-label="GitHub profile" target="_blank" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M9 1.5C4.9 1.5 1.5 4.9 1.5 9c0 3.3 2.1 6.1 5.1 7.1.4.1.5-.2.5-.4V14.2c-2.1.5-2.5-.9-2.5-.9-.4-.8-.9-1.1-.9-1.1-.7-.5.1-.4.1-.4.7.1 1.1.7 1.1.7.7 1.1 1.8.8 2.2.6.1-.5.3-.8.5-1-1.7-.2-3.4-.8-3.4-3.8 0-.8.3-1.5.7-2-.1-.2-.3-.9.1-1.9 0 0 .6-.2 2 .7.6-.2 1.2-.3 1.8-.3.6 0 1.2.1 1.8.3 1.4-.9 2-.7 2-.7.4 1 .2 1.7.1 1.9.5.5.7 1.2.7 2 0 2.9-1.8 3.6-3.5 3.8.3.2.5.7.5 1.4v2.1c0 .2.1.5.5.4 3-1 5.1-3.8 5.1-7.1 0-4.1-3.4-7.5-7.5-7.5z" fill="currentColor"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contact-form" novalidate aria-label="Contact form">
+        <div class="form-row">
+          <div class="field" id="field-name">
+            <label for="f-name">Full Name <abbr title="required">*</abbr></label>
+            <input type="text" id="f-name" name="name" autocomplete="name" required placeholder="Jane Smith" />
+            <span class="field-error" id="err-name" role="alert"></span>
+          </div>
+          <div class="field" id="field-email">
+            <label for="f-email">Work Email <abbr title="required">*</abbr></label>
+            <input type="email" id="f-email" name="email" autocomplete="email" required placeholder="jane@company.com" />
+            <span class="field-error" id="err-email" role="alert"></span>
+          </div>
+        </div>
+        <div class="field">
+          <label for="f-subject">Subject</label>
+          <input type="text" id="f-subject" name="subject" placeholder="Project inquiry, partnership, support…" />
+        </div>
+        <div class="field" id="field-message">
+          <label for="f-message">Message <abbr title="required">*</abbr></label>
+          <textarea id="f-message" name="message" rows="5" required placeholder="Tell us about your project — what are you building, what's your timeline, and what's the main challenge you're trying to solve?"></textarea>
+          <span class="field-error" id="err-message" role="alert"></span>
+        </div>
+        <button type="submit" class="btn-primary submit-btn" id="form-submit">
+          <span class="btn-label">Send Message</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 8h12M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="form-success" id="form-success" role="status" aria-live="polite" hidden>
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="9" stroke="#1B8CA6" stroke-width="1.5"/><path d="M6 10l3 3 5-5" stroke="#1B8CA6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Message sent. We'll be in touch within one business day.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="inner footer-layout">
+      <div class="footer-brand">
+        <a href="#home" class="brand footer-brand-link" aria-label="NovaFlow home">
+          <svg class="brand-mark" width="26" height="26" viewBox="0 0 30 30" fill="none" aria-hidden="true">
+            <rect x="2" y="2" width="12" height="12" rx="2" fill="#1B8CA6"/>
+            <rect x="16" y="2" width="12" height="12" rx="2" fill="#fff" opacity="0.5"/>
+            <rect x="2" y="16" width="12" height="12" rx="2" fill="#fff" opacity="0.5"/>
+            <rect x="16" y="16" width="12" height="12" rx="2" fill="#1B8CA6" opacity="0.35"/>
+          </svg>
+          <span>Nova<strong>Flow</strong></span>
+        </a>
+        <p>Enterprise software, AI, and cloud solutions for businesses that demand reliability.</p>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/tulasi-ram-vutukuri" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><rect x="1.5" y="1.5" width="15" height="15" rx="2" stroke="currentColor" stroke-width="1.3"/><path d="M5 7.5V13M5 5.5V5.6M8.5 13V10.25a1.75 1.75 0 0 1 3.5 0V13M8.5 7.5V13" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+          </a>
+          <a href="https://github.com/tulasiram-vutukuri" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M9 1.5C4.9 1.5 1.5 4.9 1.5 9c0 3.3 2.1 6.1 5.1 7.1.4.1.5-.2.5-.4V14.2c-2.1.5-2.5-.9-2.5-.9-.4-.8-.9-1.1-.9-1.1-.7-.5.1-.4.1-.4.7.1 1.1.7 1.1.7.7 1.1 1.8.8 2.2.6.1-.5.3-.8.5-1-1.7-.2-3.4-.8-3.4-3.8 0-.8.3-1.5.7-2-.1-.2-.3-.9.1-1.9 0 0 .6-.2 2 .7.6-.2 1.2-.3 1.8-.3.6 0 1.2.1 1.8.3 1.4-.9 2-.7 2-.7.4 1 .2 1.7.1 1.9.5.5.7 1.2.7 2 0 2.9-1.8 3.6-3.5 3.8.3.2.5.7.5 1.4v2.1c0 .2.1.5.5.4 3-1 5.1-3.8 5.1-7.1 0-4.1-3.4-7.5-7.5-7.5z" fill="currentColor"/></svg>
+          </a>
+          <a href="mailto:tulasiramv09@gmail.com" aria-label="Email">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><rect x="2" y="4" width="14" height="10" rx="1.5" stroke="currentColor" stroke-width="1.3"/><path d="M2 6l7 5 7-5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <nav class="footer-col" aria-label="Company links">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#why">Why NovaFlow</a></li>
+          <li><a href="#testimonials">Clients</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-col" aria-label="Services links">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Web Development</a></li>
+          <li><a href="#services">AI & ML</a></li>
+          <li><a href="#services">Cloud Solutions</a></li>
+          <li><a href="#services">Mobile Apps</a></li>
+          <li><a href="#services">UI/UX Design</a></li>
+          <li><a href="#services">Cybersecurity</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-col footer-newsletter">
+        <h4>Stay Updated</h4>
+        <p>Occasional insights on software architecture, AI, and engineering leadership. No spam.</p>
+        <form id="newsletter-form" novalidate aria-label="Newsletter">
+          <div class="newsletter-row">
+            <input type="email" id="nl-email" placeholder="your@email.com" aria-label="Email address" required />
+            <button type="submit" aria-label="Subscribe">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="inner">
+        <p>© <span id="footer-year"></span> NovaFlow Technologies, Inc. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M9 14V4M4 9l5-5 5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
